@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+		<title>Insert title here</title>
+		<style type="text/css">
+			.control{
+				margin: auto ;
+				margin-top: 15%;
+				width: 20%;
+				height: 20%;
+				background-color: aliceblue;
+				padding: 21px;
+				white-space:nowrap;
+				opacity:0.5;
+				border-radius: 10px;
+				text-align: center;
+				
+			}
+			input{
+				border-radius: 10px;
+			}
+		</style>
+	</head>
+	
+	<body style="background-image: url(3.jpg);">
+		<div class="control">
+			<form  method="post" action="../loginSer.do" >
+				<input type="text" name="username" placeholder="UserName" align="center"
+					style="margin-top: 20px;height: 25px;"
+					><br><br>
+				<input type="password" name="password" placeholder="Password"
+					style="height: 25px;"
+					><br>
+				<div id="">
+				
+				<input type="submit" value="login" style="margin-top: 30px;width: 203px;height: 33px;">
+				</div>
+			</form>
+			
+			<form  method="post" action="RegisterSer.do" >
+				<div style="height: 20px;";>
+					<a href="register.html"><input type="button" value="register" 
+						style="float: right;margin-top: 10px;"></a>
+				</div>
+			</form>
+			
+		</div>
+
+	</body>
+
+</html>
